@@ -9,5 +9,5 @@
 2. Jalankan migrasi
 
     ```
-    docker run --rm -v ${PWD}/flyway:/flyway/project flyway/flyway migrate -workingDirectory="project"
+    docker run --rm --network=host -v ${PWD}/flyway:/flyway/project flyway/flyway migrate -workingDirectory="project"
     ```

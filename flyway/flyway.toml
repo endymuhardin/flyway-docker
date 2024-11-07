@@ -2,6 +2,6 @@
 locations = ["filesystem:migrations"]
 
 [environments.default]
-url = "jdbc:mysql://host.docker.internal:33061/belajardb?useSSL=false&allowPublicKeyRetrieval=true"
+url = "jdbc:mysql://localhost:33061/belajardb?useSSL=false&allowPublicKeyRetrieval=true"
 user = "belajar"
 password = "belajar123"
